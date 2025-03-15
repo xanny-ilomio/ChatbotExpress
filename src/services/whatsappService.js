@@ -1,4 +1,4 @@
-import sendToWhatsApp from "../services/httpRequest/sendToWhatsApp.js";
+import sendToWhatsApp from "../services/httpRequest/sendToWhatsapp.js";
 
 class WhatsAppService {
   async sendMessage(to, body, messageId) {
